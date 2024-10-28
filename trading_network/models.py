@@ -14,7 +14,7 @@ class Provider(models.Model):
     name = models.CharField(max_length=250, verbose_name="Название")
     supplier = models.ForeignKey("self", **NULLABLE, on_delete=models.SET_NULL, verbose_name="Поставщик")
     supplier_type = models.CharField(max_length=40, choices=SUPPLIER_TYPES, verbose_name="Тип поставщика")
-    level = models.IntegerField(max_length=10, verbose_name="Уровень в иерархии")
+    level = models.IntegerField(verbose_name="Уровень в иерархии")
     debt = models.DecimalField(max_digits=10, decimal_places=2, **NULLABLE, default=0,
                                verbose_name="Задолженность перед поставщиком")
     creation_time = models.DateTimeField(auto_now_add=True, verbose_name="Время создания")
@@ -50,7 +50,7 @@ class Contact(models.Model):
     country = models.CharField(max_length=200, verbose_name="Страна")
     city = models.CharField(max_length=100, verbose_name="Город")
     street = models.CharField(max_length=100, **NULLABLE, verbose_name="Улица")
-    house_number = models.PositiveIntegerField(max_length=10, **NULLABLE, verbose_name="Номер дома")
+    house_number = models.PositiveIntegerField(**NULLABLE, verbose_name="Номер дома")
     supplier = models.ForeignKey(Provider, on_delete=models.CASCADE, **NULLABLE, verbose_name="Поставщик")
 
     def __str__(self):
