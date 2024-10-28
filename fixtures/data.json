@@ -1,0 +1,570 @@
+[
+  {
+    "model": "trading_network.provider",
+    "pk": 1,
+    "fields": {
+      "name": "ООО «ТСЦ «ИнтерТех»",
+      "supplier": 2,
+      "supplier_type": "retail_network",
+      "level": 1,
+      "debt": "0.00",
+      "creation_time": "2024-10-28T15:46:43.616Z"
+    }
+  },
+  {
+    "model": "trading_network.provider",
+    "pk": 2,
+    "fields": {
+      "name": "ACS (А Components Supply)",
+      "supplier": null,
+      "supplier_type": "factory",
+      "level": 0,
+      "debt": "0.00",
+      "creation_time": "2024-10-28T15:47:04.872Z"
+    }
+  },
+  {
+    "model": "trading_network.provider",
+    "pk": 3,
+    "fields": {
+      "name": "АВЕОР, ООО",
+      "supplier": null,
+      "supplier_type": "factory",
+      "level": 0,
+      "debt": "0.00",
+      "creation_time": "2024-10-28T15:47:58.041Z"
+    }
+  },
+  {
+    "model": "trading_network.provider",
+    "pk": 4,
+    "fields": {
+      "name": "Золотой шар, ЗАО",
+      "supplier": null,
+      "supplier_type": "factory",
+      "level": 0,
+      "debt": "0.00",
+      "creation_time": "2024-10-28T15:48:32.448Z"
+    }
+  },
+  {
+    "model": "trading_network.provider",
+    "pk": 5,
+    "fields": {
+      "name": "Компонента, АО",
+      "supplier": null,
+      "supplier_type": "factory",
+      "level": 0,
+      "debt": "0.00",
+      "creation_time": "2024-10-28T15:49:06.199Z"
+    }
+  },
+  {
+    "model": "trading_network.provider",
+    "pk": 6,
+    "fields": {
+      "name": "ООО “МАКРОТЕК”",
+      "supplier": null,
+      "supplier_type": "factory",
+      "level": 0,
+      "debt": "0.00",
+      "creation_time": "2024-10-28T15:49:31.455Z"
+    }
+  },
+  {
+    "model": "trading_network.provider",
+    "pk": 7,
+    "fields": {
+      "name": "НЕОН-ЭК, ТД, ООО",
+      "supplier": null,
+      "supplier_type": "factory",
+      "level": 0,
+      "debt": "0.00",
+      "creation_time": "2024-10-28T15:50:00.938Z"
+    }
+  },
+  {
+    "model": "trading_network.provider",
+    "pk": 8,
+    "fields": {
+      "name": "«Промтехпоставка», ООО",
+      "supplier": null,
+      "supplier_type": "factory",
+      "level": 0,
+      "debt": "0.00",
+      "creation_time": "2024-10-28T15:50:32.457Z"
+    }
+  },
+  {
+    "model": "trading_network.provider",
+    "pk": 9,
+    "fields": {
+      "name": "Радиокомп, ООО",
+      "supplier": null,
+      "supplier_type": "factory",
+      "level": 0,
+      "debt": "0.00",
+      "creation_time": "2024-10-28T15:50:53.613Z"
+    }
+  },
+  {
+    "model": "trading_network.provider",
+    "pk": 10,
+    "fields": {
+      "name": "ООО \"АГОРА-ТЕЛЕКОМ\"",
+      "supplier": 4,
+      "supplier_type": "retail_network",
+      "level": 1,
+      "debt": "0.00",
+      "creation_time": "2024-10-28T16:19:03.739Z"
+    }
+  },
+  {
+    "model": "trading_network.provider",
+    "pk": 11,
+    "fields": {
+      "name": "Оптово-розничный интернет-магазин РемБытТехника",
+      "supplier": 6,
+      "supplier_type": "individual_entrepreneur",
+      "level": 1,
+      "debt": "0.00",
+      "creation_time": "2024-10-28T16:20:41.080Z"
+    }
+  },
+  {
+    "model": "trading_network.provider",
+    "pk": 12,
+    "fields": {
+      "name": "Лаборатория Электроники",
+      "supplier": 4,
+      "supplier_type": "individual_entrepreneur",
+      "level": 1,
+      "debt": "54533.00",
+      "creation_time": "2024-10-28T16:21:21.103Z"
+    }
+  },
+  {
+    "model": "trading_network.provider",
+    "pk": 13,
+    "fields": {
+      "name": "ООО \"ВАРИАНТ\"",
+      "supplier": 3,
+      "supplier_type": "retail_network",
+      "level": 1,
+      "debt": "6611.00",
+      "creation_time": "2024-10-28T16:22:37.082Z"
+    }
+  },
+  {
+    "model": "trading_network.provider",
+    "pk": 14,
+    "fields": {
+      "name": "Multi Brand",
+      "supplier": 1,
+      "supplier_type": "individual_entrepreneur",
+      "level": 2,
+      "debt": "5435100.00",
+      "creation_time": "2024-10-28T16:23:53.947Z"
+    }
+  },
+  {
+    "model": "trading_network.provider",
+    "pk": 15,
+    "fields": {
+      "name": "ТВП Электроника",
+      "supplier": 1,
+      "supplier_type": "individual_entrepreneur",
+      "level": 2,
+      "debt": "43132.00",
+      "creation_time": "2024-10-28T16:26:14.278Z"
+    }
+  },
+  {
+    "model": "trading_network.provider",
+    "pk": 16,
+    "fields": {
+      "name": "ТЕХПОРТ В2В",
+      "supplier": 13,
+      "supplier_type": "individual_entrepreneur",
+      "level": 2,
+      "debt": "0.00",
+      "creation_time": "2024-10-28T16:27:12.097Z"
+    }
+  },
+  {
+    "model": "trading_network.provider",
+    "pk": 17,
+    "fields": {
+      "name": "ООО\"Поток\"",
+      "supplier": 6,
+      "supplier_type": "retail_network",
+      "level": 1,
+      "debt": "51212.00",
+      "creation_time": "2024-10-28T16:28:47.053Z"
+    }
+  },
+  {
+    "model": "trading_network.product",
+    "pk": 1,
+    "fields": {
+      "title": "РЧ усилитель",
+      "model": "BGA2803",
+      "release_date": "1999-12-12",
+      "supplier": 3
+    }
+  },
+  {
+    "model": "trading_network.product",
+    "pk": 2,
+    "fields": {
+      "title": "линейный стабилизатор напряжения 2.5-12В 500мА",
+      "model": "7T6323A",
+      "release_date": "2000-12-12",
+      "supplier": 4
+    }
+  },
+  {
+    "model": "trading_network.product",
+    "pk": 3,
+    "fields": {
+      "title": "преобразователь DC-DC 0.8-16В 3А 1.2МГц SOIC-8",
+      "model": "ST1S10PHR",
+      "release_date": "2001-07-13",
+      "supplier": 5
+    }
+  },
+  {
+    "model": "trading_network.product",
+    "pk": 4,
+    "fields": {
+      "title": "Процессорный модуль Модем",
+      "model": "NWEPLC-12-G3M",
+      "release_date": "2005-02-23",
+      "supplier": 7
+    }
+  },
+  {
+    "model": "trading_network.product",
+    "pk": 5,
+    "fields": {
+      "title": "Анализатор сигналов/спектра",
+      "model": "4051-S",
+      "release_date": "2012-09-15",
+      "supplier": 2
+    }
+  },
+  {
+    "model": "trading_network.product",
+    "pk": 6,
+    "fields": {
+      "title": "Анализатор спектра",
+      "model": "4024B",
+      "release_date": "2015-12-14",
+      "supplier": 2
+    }
+  },
+  {
+    "model": "trading_network.product",
+    "pk": 7,
+    "fields": {
+      "title": "IMU - Инерциальные измерительные устройства",
+      "model": "ADIS16448BMLZ",
+      "release_date": "2002-03-16",
+      "supplier": 8
+    }
+  },
+  {
+    "model": "trading_network.product",
+    "pk": 8,
+    "fields": {
+      "title": "EL дисплей",
+      "model": "LUMINEQ",
+      "release_date": "2018-01-16",
+      "supplier": 4
+    }
+  },
+  {
+    "model": "trading_network.product",
+    "pk": 9,
+    "fields": {
+      "title": "Печатная плата",
+      "model": "TMR3-1211",
+      "release_date": "2020-12-12",
+      "supplier": 5
+    }
+  },
+  {
+    "model": "trading_network.product",
+    "pk": 10,
+    "fields": {
+      "title": "Печатная плата",
+      "model": "SYPS-2-1+ 2009",
+      "release_date": "2009-05-18",
+      "supplier": 7
+    }
+  },
+  {
+    "model": "trading_network.product",
+    "pk": 11,
+    "fields": {
+      "title": "модуль блинкерный",
+      "model": "Dot-LED module16x28/10 B162-12",
+      "release_date": "2019-08-16",
+      "supplier": 7
+    }
+  },
+  {
+    "model": "trading_network.product",
+    "pk": 12,
+    "fields": {
+      "title": "ЖКИ",
+      "model": "WH1601A-TMI-CT",
+      "release_date": "2017-06-19",
+      "supplier": 7
+    }
+  },
+  {
+    "model": "trading_network.product",
+    "pk": 13,
+    "fields": {
+      "title": "Кварцевый генератор программируемый",
+      "model": "APM3B85624FO",
+      "release_date": "2023-07-15",
+      "supplier": 6
+    }
+  },
+  {
+    "model": "trading_network.product",
+    "pk": 14,
+    "fields": {
+      "title": "Планка USB",
+      "model": "SCUA-21",
+      "release_date": "2022-02-26",
+      "supplier": 9
+    }
+  },
+  {
+    "model": "trading_network.product",
+    "pk": 15,
+    "fields": {
+      "title": "Конвертер RS232/ethernet",
+      "model": "DS1100",
+      "release_date": "2020-08-15",
+      "supplier": 9
+    }
+  },
+  {
+    "model": "trading_network.product",
+    "pk": 16,
+    "fields": {
+      "title": "1-портовый преобразователь USB в CAN в металлическом корпусе",
+      "model": "USB-CAN (OBD)",
+      "release_date": "2021-12-12",
+      "supplier": 6
+    }
+  },
+  {
+    "model": "trading_network.contact",
+    "pk": 1,
+    "fields": {
+      "email": "test1@test.ru",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Пресненская набережная",
+      "house_number": 12,
+      "supplier": 2
+    }
+  },
+  {
+    "model": "trading_network.contact",
+    "pk": 2,
+    "fields": {
+      "email": "test2@test.ru",
+      "country": "Россия",
+      "city": "Новочебоксарск",
+      "street": "Винокурова",
+      "house_number": 48,
+      "supplier": 3
+    }
+  },
+  {
+    "model": "trading_network.contact",
+    "pk": 3,
+    "fields": {
+      "email": "test3@test.ru",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Краснопролетарская",
+      "house_number": 16,
+      "supplier": 4
+    }
+  },
+  {
+    "model": "trading_network.contact",
+    "pk": 4,
+    "fields": {
+      "email": "test4@test.ru",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Выборгская",
+      "house_number": 18,
+      "supplier": 5
+    }
+  },
+  {
+    "model": "trading_network.contact",
+    "pk": 5,
+    "fields": {
+      "email": "test5@mail.ru",
+      "country": "Россия",
+      "city": "Санкт-Петербург",
+      "street": "проспект Стачек",
+      "house_number": 47,
+      "supplier": 6
+    }
+  },
+  {
+    "model": "trading_network.contact",
+    "pk": 6,
+    "fields": {
+      "email": "test6@mail.ru",
+      "country": "Россия",
+      "city": "Санкт-Петербург",
+      "street": "В. О. 5-я линия",
+      "house_number": 62,
+      "supplier": 7
+    }
+  },
+  {
+    "model": "trading_network.contact",
+    "pk": 7,
+    "fields": {
+      "email": "test7@test.ru",
+      "country": "Россия",
+      "city": "Нижний Новгород",
+      "street": "Ленина",
+      "house_number": 37,
+      "supplier": 8
+    }
+  },
+  {
+    "model": "trading_network.contact",
+    "pk": 8,
+    "fields": {
+      "email": "test8@test.ru",
+      "country": "Россия",
+      "city": "Киров",
+      "street": "Советская",
+      "house_number": 36,
+      "supplier": 9
+    }
+  },
+  {
+    "model": "trading_network.contact",
+    "pk": 9,
+    "fields": {
+      "email": "test9@test.ru",
+      "country": "Россия",
+      "city": "Владивосток",
+      "street": "Пионерская",
+      "house_number": 64,
+      "supplier": 14
+    }
+  },
+  {
+    "model": "trading_network.contact",
+    "pk": 10,
+    "fields": {
+      "email": "test9@test.ru",
+      "country": "Россия",
+      "city": "Саратов",
+      "street": "Промышленная",
+      "house_number": 15,
+      "supplier": 12
+    }
+  },
+  {
+    "model": "trading_network.contact",
+    "pk": 11,
+    "fields": {
+      "email": "test10@test.ru",
+      "country": "Россия",
+      "city": "Ростов-на-Дону",
+      "street": "проспект Энтузиастов",
+      "house_number": 3,
+      "supplier": 10
+    }
+  },
+  {
+    "model": "trading_network.contact",
+    "pk": 12,
+    "fields": {
+      "email": "test11@test.ru",
+      "country": "Россия",
+      "city": "Ульяновск",
+      "street": "Николаевская",
+      "house_number": 12,
+      "supplier": 13
+    }
+  },
+  {
+    "model": "trading_network.contact",
+    "pk": 13,
+    "fields": {
+      "email": "test12@test.ru",
+      "country": "Россия",
+      "city": "Ижевск",
+      "street": "Красного знамени",
+      "house_number": 45,
+      "supplier": 1
+    }
+  },
+  {
+    "model": "trading_network.contact",
+    "pk": 14,
+    "fields": {
+      "email": "test13@test.ru",
+      "country": "Россия",
+      "city": "Новосибирск",
+      "street": "Новослободская",
+      "house_number": 20,
+      "supplier": 17
+    }
+  },
+  {
+    "model": "trading_network.contact",
+    "pk": 15,
+    "fields": {
+      "email": "test15@test.ru",
+      "country": "Россия",
+      "city": "Красноярск",
+      "street": "Васильевская",
+      "house_number": 21,
+      "supplier": 11
+    }
+  },
+  {
+    "model": "trading_network.contact",
+    "pk": 16,
+    "fields": {
+      "email": "test16@test.ru",
+      "country": "Россия",
+      "city": "Екатеринбург",
+      "street": "Фатеева",
+      "house_number": 29,
+      "supplier": 15
+    }
+  },
+  {
+    "model": "trading_network.contact",
+    "pk": 17,
+    "fields": {
+      "email": "test17@test.ru",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Васильевская",
+      "house_number": 37,
+      "supplier": 16
+    }
+  }
+]
