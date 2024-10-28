@@ -1,4 +1,5 @@
 from django.db import models
+from rest_framework.exceptions import ValidationError
 
 from config.settings import NULLABLE
 
@@ -26,6 +27,21 @@ class Provider(models.Model):
         verbose_name = "Поставщик"
         verbose_name_plural = "Поставщики"
         ordering = ("name",)
+
+    def clean(self):
+        """Валидация данных для модели поставщика"""
+
+        if self.supplier and self.supplier == self:
+            raise ValidationError("Нельзя выбрать в качестве поставщика самого себя")
+
+        if self.supplier:
+            if self.level == 0 and self.supplier is not None:
+                raise ValidationError(
+                    "Завод не может иметь поставщика")
+            if self.level == 1 and self.supplier.level == 2:
+                raise ValidationError("Розничная сеть не может иметь в качестве поставщика ИП")
+            if self.level == 2 and self.supplier.level != 2:
+                raise ValidationError("ИП не может быть поставщиком только для другого ИП")
 
 
 class Product(models.Model):
